@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="app_list_page_tittle">Lista da Alunos</string>
+    <string name="app_form_page_tittle">Novo Aluno</string>
+    <string name="nome_label">Nome</string>
+    <string name="telefone_label">Telefone</string>
+    <string name="ra_label">RA</string>
+    <string name="email_label">E-mail</string>
+    <string name="salvar_buttom_label">Salvar</string>
+</resources>
