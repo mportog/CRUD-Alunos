@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_save"
+        android:id="@+id/activity_formulario_aluno_salvar"
+        android:title="@string/salvar_buttom_label" />
+</menu>

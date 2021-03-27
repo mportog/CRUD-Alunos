@@ -1,10 +1,13 @@
 package com.mportog.alura.agenda.model
 
-class Aluno {
-    var nome: String
-    var telefone: String
-    var email: String
-    var ra: String
+import java.io.Serializable
+
+class Aluno : Serializable {
+    var id: Int = 0
+    lateinit var nome: String
+    lateinit var telefone: String
+    lateinit var email: String
+    lateinit var ra: String
 
     constructor(nome: String, telefone: String, email: String, ra: String) {
         this.nome = nome
@@ -13,5 +16,14 @@ class Aluno {
         this.email = email
     }
 
+    constructor()
+
+    override fun toString(): String {
+        return nome
+    }
+
+    fun idValido(): Boolean {
+        return id > 0
+    }
 
 }

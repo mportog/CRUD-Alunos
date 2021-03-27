@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Agenda</string>
-    <string name="app_list_page_tittle">Lista da Alunos</string>
-    <string name="app_form_page_tittle">Novo Aluno</string>
+    <string name="app_list_page_tittle">Lista de Alunos</string>
+    <string name="app_form_page_create_tittle">Novo Aluno</string>
+    <string name="app_form_page_edit_tittle">Editar Aluno</string>
+    <string name="menu_remove_tittle">Remover</string>
     <string name="nome_label">Nome</string>
     <string name="telefone_label">Telefone</string>
     <string name="ra_label">RA</string>

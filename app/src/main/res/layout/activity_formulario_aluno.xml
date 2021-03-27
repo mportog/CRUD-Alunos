@@ -38,12 +38,4 @@
         android:inputType="textEmailAddress"
         android:hint="@string/email_label"></EditText>
 
-    <Button
-        android:id="@+id/activity_formulario_aluno_btn_salvar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/normal_spacing"
-        android:layout_marginEnd="@dimen/normal_spacing"
-        android:text="@string/salvar_buttom_label"></Button>
-
 </LinearLayout>
