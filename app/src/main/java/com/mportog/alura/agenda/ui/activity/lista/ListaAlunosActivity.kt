@@ -11,16 +11,16 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.mportog.alura.agenda.R
 import com.mportog.alura.agenda.model.Aluno
 import com.mportog.alura.agenda.ui.activity.ConstantesActivities
-import com.mportog.alura.agenda.ui.activity.FormularioAlunoActivity
+import com.mportog.alura.agenda.ui.activity.formulario.FormularioAlunoActivity
 
-class ListaAlunosActivity : AppCompatActivity(),
-    ConstantesActivities {
-    private val listaAlunosView: ListaAlunosView = ListaAlunosView(this)
+class ListaAlunosActivity : AppCompatActivity(), ConstantesActivities {
+    private lateinit var listaAlunosView: ListaAlunosView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lista_alunos)
         setTitle(R.string.app_list_page_tittle)
+        listaAlunosView = ListaAlunosView(this)
         initFab()
         configLista()
     }

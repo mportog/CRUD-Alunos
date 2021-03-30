@@ -13,6 +13,14 @@
         android:inputType="textCapWords" />
 
     <EditText
+        android:id="@+id/activity_formulario_aluno_sobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/normal_spacing"
+        android:hint="@string/sobrenome_label"
+        android:inputType="textCapWords" />
+
+    <EditText
         android:id="@+id/activity_formulario_aluno_ra"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

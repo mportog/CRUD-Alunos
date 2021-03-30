@@ -5,16 +5,26 @@ import android.content.Context
 import android.view.MenuItem
 import android.widget.AdapterView
 import android.widget.ListView
+import androidx.room.Room
 import com.mportog.alura.agenda.R
-import com.mportog.alura.agenda.dao.AlunoDAO
+import com.mportog.alura.agenda.database.AgendaDatabase
+import com.mportog.alura.agenda.database.dao.RoomAlunoDAO
 import com.mportog.alura.agenda.model.Aluno
 
-class ListaAlunosView(val context: Context) {
+class ListaAlunosView {
+    private var _context: Context
+    private var adapter: ListaAlunosAdapter
+    private var dao: RoomAlunoDAO
 
-    private lateinit var adapter: ListaAlunosAdapter
+    constructor(context: Context) {
+        _context = context
+        adapter =
+            ListaAlunosAdapter(_context)
+        dao = AgendaDatabase.singleton.instance(_context).getAlunoDAO()
+    }
 
     fun dialogRemocao(item: MenuItem) {
-        AlertDialog.Builder(context)
+        AlertDialog.Builder(_context)
             .setTitle(R.string.remove_dialog_label_title)
             .setMessage(R.string.remove_dialog_label_message)
             .setPositiveButton(
@@ -32,17 +42,16 @@ class ListaAlunosView(val context: Context) {
     }
 
     fun atualizar() {
-        adapter.atualizar(AlunoDAO.todos())
+        adapter.atualizar(dao.todos())
     }
 
     fun remover(alunoEscolhido: Aluno) {
-        AlunoDAO.remover(alunoEscolhido)
+        dao.remover(alunoEscolhido)
         adapter.remove(alunoEscolhido)
     }
 
     fun configAdapter(lValunos: ListView) {
-        adapter =
-            ListaAlunosAdapter(context)
+
         lValunos.adapter = adapter
     }
 
