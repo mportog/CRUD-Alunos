@@ -31,7 +31,7 @@ class AlunoDAO {
             var alunoencontrado: Aluno? = buscarAlunoPorId(aluno)
             if (alunoencontrado != null) {
                 var posicaoAluno: Int = alunos.indexOf(alunoencontrado)
-                alunos.set(posicaoAluno, aluno)
+                alunos[posicaoAluno] = aluno
             }
         }
 

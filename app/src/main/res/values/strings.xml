@@ -9,4 +9,8 @@
     <string name="ra_label">RA</string>
     <string name="email_label">E-mail</string>
     <string name="salvar_buttom_label">Salvar</string>
+    <string name="remove_buttom_label_yes">Sim</string>
+    <string name="remove_buttom_label_no">Não</string>
+    <string name="remove_dialog_label_title">Removendo aluno</string>
+    <string name="remove_dialog_label_message">Deseja realmente remover o aluno?</string>
 </resources>

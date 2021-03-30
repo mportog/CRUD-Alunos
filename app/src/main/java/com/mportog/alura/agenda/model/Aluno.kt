@@ -9,7 +9,7 @@ class Aluno : Serializable {
     lateinit var email: String
     lateinit var ra: String
 
-    constructor(nome: String, telefone: String, email: String, ra: String) {
+    constructor(nome: String, ra: String, telefone: String, email: String) {
         this.nome = nome
         this.ra = ra
         this.telefone = telefone
@@ -25,5 +25,6 @@ class Aluno : Serializable {
     fun idValido(): Boolean {
         return id > 0
     }
+
 
 }

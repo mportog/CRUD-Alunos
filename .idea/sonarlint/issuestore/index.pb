@@ -7,3 +7,19 @@ j
 Mapp/src/main/java/com/mportog/alura/agenda/ui/activity/ListaAlunosActivity.kt,6\d\6d97d3b62b2dca876e1b113345f650809cea99cf
 Å
 Qapp/src/main/java/com/mportog/alura/agenda/ui/activity/FormularioAlunoActivity.kt,e\1\e10c7e268e169a200f1625d52afeb68126014d21
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+~
+Napp/src/main/java/com/mportog/alura/agenda/ui/activity/ConstantesActivities.kt,7\2\726bad9b5cf0ceaea741f29843fe219b4e1def4b
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+|
+Lapp/src/main/java/com/mportog/alura/agenda/ui/activity/ListaAlunosAdapter.kt,6\f\6f1f4c44610fb1b4ae345e66957bfa5d574794d8
+{
+Kapp/src/main/java/com/mportog/alura/agenda/application/AgendaApplication.kt,d\c\dcd15340adb8a091fdc1483540755ac883496af7
+Ç
+Rapp/src/main/java/com/mportog/alura/agenda/ui/activity/lista/ListaAlunosAdapter.kt,7\9\796277980edd5c63033d40f41aa53fc937e129fa
+É
+Sapp/src/main/java/com/mportog/alura/agenda/ui/activity/lista/ListaAlunosActivity.kt,6\6\66b0dac65228fee3a2b334aa6af07858c4fdb9f4
+
+Oapp/src/main/java/com/mportog/alura/agenda/ui/activity/lista/ListaAlunosView.kt,6\5\65716ecbfd01215ecfbf765b527a976ac4f31d04

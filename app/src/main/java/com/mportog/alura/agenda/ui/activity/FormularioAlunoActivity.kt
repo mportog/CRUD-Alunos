@@ -1,12 +1,11 @@
 package com.mportog.alura.agenda.ui.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 import com.mportog.alura.agenda.R
 import com.mportog.alura.agenda.dao.AlunoDAO
 import com.mportog.alura.agenda.model.Aluno
@@ -16,7 +15,7 @@ class FormularioAlunoActivity : AppCompatActivity(), ConstantesActivities {
     private lateinit var txtRa: EditText
     private lateinit var txtTelefone: EditText
     private lateinit var txtEmail: EditText
-    lateinit var aluno: Aluno
+    private lateinit var aluno: Aluno
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,7 +38,7 @@ class FormularioAlunoActivity : AppCompatActivity(), ConstantesActivities {
     }
 
     private fun carregarAluno() {
-        var dados: Intent = intent
+        val dados: Intent = intent
         if (dados.hasExtra(CHAVE_ALUNO)) {
             setTitle(R.string.app_form_page_edit_tittle)
             aluno = intent.getSerializableExtra(CHAVE_ALUNO) as Aluno
@@ -75,10 +74,10 @@ class FormularioAlunoActivity : AppCompatActivity(), ConstantesActivities {
     }
 
     private fun preencheAluno() {
-        var nome: String = txtNome.getText().toString()
-        var telefone: String = txtTelefone.getText().toString()
-        var ra: String = txtRa.getText().toString()
-        var email: String = txtEmail.getText().toString()
+        val nome: String = txtNome.text.toString()
+        val telefone: String = txtTelefone.text.toString()
+        val ra: String = txtRa.text.toString()
+        val email: String = txtEmail.text.toString()
 
         aluno.nome = nome
         aluno.ra = ra
