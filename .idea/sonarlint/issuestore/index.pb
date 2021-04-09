@@ -1,18 +1,12 @@
 
 i
 9app/src/main/java/com/mportog/alura/agenda/model/Aluno.kt,d\1\d1cad3e528058d38484275735c8151cae1a3dcf1
-j
-:app/src/main/java/com/mportog/alura/agenda/dao/AlunoDAO.kt,9\8\985c4ae3fa22df1140a2d8e668aa5f73404ed67f
-Å
-Qapp/src/main/java/com/mportog/alura/agenda/ui/activity/FormularioAlunoActivity.kt,e\1\e10c7e268e169a200f1625d52afeb68126014d21
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 ~
 Napp/src/main/java/com/mportog/alura/agenda/ui/activity/ConstantesActivities.kt,7\2\726bad9b5cf0ceaea741f29843fe219b4e1def4b
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-{
-Kapp/src/main/java/com/mportog/alura/agenda/application/AgendaApplication.kt,d\c\dcd15340adb8a091fdc1483540755ac883496af7
 Ç
 Rapp/src/main/java/com/mportog/alura/agenda/ui/activity/lista/ListaAlunosAdapter.kt,7\9\796277980edd5c63033d40f41aa53fc937e129fa
 É
@@ -25,3 +19,9 @@ w
 Gapp/src/main/java/com/mportog/alura/agenda/database/dao/RoomAlunoDAO.kt,d\f\df38db686fa49286f49c9f92ff6ea5cb94fd4a30
 u
 Eapp/src/main/java/com/mportog/alura/agenda/database/AgendaDatabase.kt,1\c\1cdd3dbe69b0b0d782b3a6736c781179206af449
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+Ç
+Rapp/src/main/java/com/mportog/alura/agenda/database/converter/ConversorCalendar.kt,b\e\bec9583b07d467d10ab7dbfb66af8d4ff6a936a6
+w
+Gapp/src/main/java/com/mportog/alura/agenda/database/AgendaMigrations.kt,e\4\e44d6016c1c5c799fbde0b2a064b4d7cc78e8f40

@@ -47,7 +47,7 @@ class ListaAlunosAdapter(context: Context) : BaseAdapter() {
     ) {
         val txtNome: TextView = viewCriada.findViewById(R.id.item_lista_nome)
         val txtRa: TextView = viewCriada.findViewById(R.id.item_lista_ra)
-        txtNome.text = alunoDevolvido.nomeCompleto()
+        txtNome.text = alunoDevolvido.nome
         txtRa.text = alunoDevolvido.ra
     }
 

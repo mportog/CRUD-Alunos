@@ -4,6 +4,9 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import java.io.Serializable
+import java.text.SimpleDateFormat
+import java.time.LocalDateTime
+import java.util.*
 
 @Entity
 class Aluno : Serializable {
@@ -16,13 +19,7 @@ class Aluno : Serializable {
     lateinit var ra: String
 
     @Ignore
-    constructor(nome: String, sobrenome: String, ra: String, telefone: String, email: String) {
-        this.nome = nome
-        this.sobrenome = sobrenome
-        this.ra = ra
-        this.telefone = telefone
-        this.email = email
-    }
+    val dataCadastro: Calendar = Calendar.getInstance()
 
     constructor()
 
